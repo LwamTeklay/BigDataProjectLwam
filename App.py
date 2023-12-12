@@ -28,14 +28,12 @@ Our app is powered by a deep learning model trained specifically on these seven 
 Your privacy is important to us. Uploaded images are only used for classification and are not stored or used for any other purposes.
 
 ## Feedback
-Love our app? Have suggestions? Contact us at [your email/contact form].
-
-## Acknowledgments
-Special thanks to those who contributed to the dataset and development of this app.
+Love our app? Have suggestions? Contact us at lwamteklay95@gmail.com.
 
 Discover the variety and beauty of roses with our app!
 """)
 # Load your trained model
+
 model = load_learner('resnet50_exported.pkl')
 
 st.title('Roses Image Classification App')
