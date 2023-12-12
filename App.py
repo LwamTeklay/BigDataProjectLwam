@@ -4,7 +4,7 @@ from PIL import Image
 import io
 
 # Load your trained model
-model = load_learner('export.pkl')
+model = load_learner('resnet50_exported.pkl')
 
 
 st.title('Roses Image Classification App')
