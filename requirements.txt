@@ -1,3 +1,5 @@
-fastbook
-fastai
-nbdev
+
+fastai==2.7.13
+fastbook==0.0.29
+
+nbdev==2.3.13
